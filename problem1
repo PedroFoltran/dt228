@@ -1,6 +1,6 @@
 x = 1
 aux = 0
-while x < 1000:
+while x < 999:
   if x % 3 == 0:
     aux += x
   elif x % 5 == 0:
