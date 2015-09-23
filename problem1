@@ -1,0 +1,9 @@
+x = 1
+aux = 0
+while x < 1000:
+  if x % 3 == 0:
+    aux += x
+  elif x % 5 == 0:
+    aux += x
+  x += 1
+print (aux)
