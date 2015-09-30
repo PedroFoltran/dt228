@@ -1,0 +1,14 @@
+old = 1
+veryOld = 1
+
+cont = 2
+str(cont)
+oldString = "1"
+
+while (len(oldString) < 1000):
+  aux = old + veryOld
+  veryOld = old
+  old = aux
+  oldString = str(old)
+  cont += 1
+print (cont)
