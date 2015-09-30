@@ -1,1 +1,3 @@
 phrase = raw_input("Give the phrase:")
+phraseInverted = phrase[::-1]
+print (phrase + "!" + phraseInverted)
