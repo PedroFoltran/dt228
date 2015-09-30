@@ -1,0 +1,1 @@
+phrase = raw_input("Give the phrase:")
