@@ -2,4 +2,8 @@ phrase = raw_input("Give the phrase:")
 phraseInverted = phrase[::-1]
 phrase = phrase.upper()
 phraseInverted = phraseInverted.upper()
-print (phrase + "!" + phraseInverted)
+
+if (phrase == phraseInverted):
+  print ("TRUE")
+else:
+  print ("FALSE")
